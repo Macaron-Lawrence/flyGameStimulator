@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>双人飞行棋模拟器</title>
+</head>
+
+<link rel="stylesheet" href="css.css">
+<body>
+    <div class="game" id="game">
+    <span id="titleinfo">
+        
+    </span>
+    <div id="player_row_butt">
+        <span id="row_b">蓝方投骰</span>
+        <span id="row_g">红方投骰</span>
+    </div>
+        <!-- <div ></div> -->
+    </div>
+    <div id="darkbg">
+        <div id="infobox">
+            <span id="infobox_title">这是任务的标题</span>
+            <span id="infobox_content">这是任务的备注<br>这是任务需要的道具</span>
+            <span id="info_checkbox">关闭</span>
+        </div>
+        <span id="roll_num">6</span>
+        <div id="roll_checkbox">
+            <span id="roll_ok" class="darkselect">好的</span>
+            <span id="roll_reroll" class="darkselect">重来</span>
+        </div>
+
+    </div>
+
+    <!-- <span id="info_close" class="darkselect">关闭</span> -->
+</body>
+<script src="jquery.min.js"></script>
+<script src="mission_example.js"></script>
+<script src="app.js"></script>
+</html>
